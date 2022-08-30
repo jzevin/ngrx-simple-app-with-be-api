@@ -1,0 +1,151 @@
+[
+  {
+    "id:": 1,
+    "question": "What is the capital of Louisiana?",
+    "subject": "Social Studies",
+    "options": ["Baton Rouge", "New Orleans", "Shreveport"],
+    "answerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "Who gave the famous \"I Have a Dream\" speech?",
+    "subject": "Social Studies",
+    "options": ["Martin Luther King, Jr.", "John F. Kennedy", "Rosa Parks"],
+    "answerIndex": 0
+  },
+  {
+    "id": 3,
+    "question": "Which ocean lies on the West Coast of the United States?",
+    "subject": "Social Studies",
+    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean"],
+    "answerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "The process of change from a liquid to a gas is called _______.",
+    "subject": "Science",
+    "options": ["Freezing", "Evaporation", "Condensation"],
+    "answerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "All of the following are properties of matter EXCEPT _______.",
+    "subject": "Science",
+    "options": ["Color", "Taste", "Weight", "Volume"],
+    "answerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "The study of how the Earth's surface is changing is called ________.",
+    "subject": "Science",
+    "options": ["Oceanography", "Meteorology", "Geology", "Astronomy"],
+    "answerIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "The metric unit for length is the _______.",
+    "subject": "Math",
+    "options": ["Meter", "Kilometer", "Pound", "Inch"],
+    "answerIndex": 0
+  },
+  {
+    "id": 8,
+    "question": "Which of the following numbers is a multiple of 100?",
+    "subject": "Math",
+    "options": ["17", "22", "37", "52"],
+    "answerIndex": 3
+  },
+  {
+    "id": 9,
+    "question": "If it takes 4 children 2 hours to rake the leaves, how long will it take 1 child to rake the leaves?",
+    "subject": "Math",
+    "options": ["1 hour", "2 hours", "4 hours"],
+    "answerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "What is the capital of Florida?",
+    "subject": "Social Studies",
+    "options": ["Tallahassee", "Orlando", "Miami", "Jacksonville"],
+    "answerIndex": 0
+    },
+  {
+    "id": 11,
+    "question": "The ___________ is the largest part of the brain.",
+    "subject": "ELA",
+    "options": ["Cerebellum", "Medulla Oblongata", "Cerebrum"],
+    "answerIndex": 2
+  },
+  {
+    "id": 12,
+    "question": "The ___________ tells the body what to do.",
+    "subject": "ELA",
+    "options": ["Nervous System", "Respiratory System", "Digestive System"],
+    "answerIndex": 0
+  },
+  {
+    "id": 13,
+    "question": "The ___________ helps you breathe.",
+    "subject": "ELA",
+    "options": ["Lungs", "Heart", "Kidneys"],
+    "answerIndex": 0
+  },
+  {
+    "id": 14,
+    "question": "___________ are the building blocks of proteins.",
+    "subject": "ELA",
+    "options": ["Lipids", "Nucleic Acids", "Amino Acids"],
+    "answerIndex": 2
+  },
+  {
+    "id": 15,
+    "question": "H2O is the chemical formula for ___________.",
+    "subject": "ELA",
+    "options": ["Water", "Oxygen", "Hydrogen"],
+    "answerIndex": 0
+  },
+  {
+    "id": 16,
+    "question": "The United States of America is located in ___________.",
+    "subject": "ELA",
+    "options": ["North America", "South America", "Africa", "Europe"],
+    "answerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "The ___________ is the longest river in Africa.",
+    "subject": "ELA",
+    "options": ["Nile River", "Amazon River", "Mississippi River"],
+    "answerIndex": 0
+  },
+  {
+    "id": 18,
+    "question": "Mount Everest is located in the ___________.",
+    "subject": "ELA",
+    "options": [
+      "Himalayan Mountains",
+      "Appalachian Mountains",
+      "Rocky Mountains"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 19,
+    "question": "The ___________ is the largest desert in the world.",
+    "subject": "ELA",
+    "options": ["Sahara Desert", "Gobi Desert", "Antarctic Desert"],
+    "answerIndex": 0
+  },
+  {
+    "id": 20,
+    "question": "The ___________ is the deepest ocean in the world.",
+    "subject": "ELA",
+    "options": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Southern Ocean"
+    ],
+    "answerIndex": 0
+  }
+]
