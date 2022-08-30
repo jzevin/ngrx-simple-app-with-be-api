@@ -133,19 +133,19 @@
     "id": 19,
     "question": "The ___________ is the largest desert in the world.",
     "subject": "ELA",
-    "options": ["Sahara Desert", "Gobi Desert", "Antarctic Desert"],
-    "answerIndex": 0
+    "options": ["Gobi Desert", "Sahara Desert", "Antarctic Desert"],
+    "answerIndex": 1
   },
   {
     "id": 20,
     "question": "The ___________ is the deepest ocean in the world.",
     "subject": "ELA",
     "options": [
-      "Pacific Ocean",
       "Atlantic Ocean",
       "Indian Ocean",
+      "Pacific Ocean",
       "Southern Ocean"
     ],
-    "answerIndex": 0
+    "answerIndex": 2
   }
 ]
