@@ -10,11 +10,15 @@ const questionsWithoutAnswers = questions.map(q => {
 
 /* GET questions listing. */
 router.get("/:id", function (req, res, next) {
-  const question = questionsWithoutAnswers[parseInt(req.params.id)]
-  question ? res.send(question) : next()
+  setTimeout(()=>{
+    const question = questionsWithoutAnswers[parseInt(req.params.id)]
+    question ? res.send(question) : next()
+  }, 2000)
 });
 router.get("/", function (req, res, next) {
-  res.send(questionsWithoutAnswers);
+  setTimeout(() => {
+    res.send(questionsWithoutAnswers);
+  }, 2000);
 });
 
 module.exports = router;
