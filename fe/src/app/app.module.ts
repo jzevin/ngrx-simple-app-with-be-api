@@ -1,3 +1,4 @@
+import { QuestionsEffects } from './state/app.state.effects';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -9,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AppQuizStateReducer, AppUiStateReducer } from './state/app.state.reducers';
+import { EffectsModule } from '@ngrx/effects';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -21,6 +23,7 @@ import { AppQuizStateReducer, AppUiStateReducer } from './state/app.state.reduce
       maxAge: 25,
       logOnly: environment.production,
     }),
+    EffectsModule.forRoot([QuestionsEffects]),
   ],
   providers: [],
   bootstrap: [AppComponent],
