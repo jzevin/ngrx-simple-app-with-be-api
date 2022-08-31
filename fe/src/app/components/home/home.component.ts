@@ -1,8 +1,10 @@
+import { selectAppQuizState, selectAppQuizStateQuestions } from './../../state/app.state.selectors';
+import { QuizQuestion, AppState } from './../../state/app.state.models';
 import { hpLoadQuestions } from './../../state/app.state.actions';
 import { ApiService } from './../../services/api.service';
 import { Component, OnInit } from '@angular/core';
-import { first } from 'rxjs';
-import { Store } from '@ngrx/store';
+import { first, Observable, map } from 'rxjs';
+import { select, Store } from '@ngrx/store';
 
 @Component({
   selector: 'app-home',
@@ -11,10 +13,12 @@ import { Store } from '@ngrx/store';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private store: Store) { }
+  questions$: Observable<QuizQuestion[]> = this.store.pipe(select(selectAppQuizStateQuestions));
+
+  constructor(private store: Store) {
+  }
 
   ngOnInit(): void {
-    // this.api.getAllQuestions().pipe(first()).subscribe(console.log);
     this.store.dispatch(hpLoadQuestions())
   }
 

@@ -1,4 +1,4 @@
-import { hpRetrieveQuestionsSuccess } from './app.state.actions';
+import { hpRetrieveQuestionsSuccess, setIsLoading } from './app.state.actions';
 import { createReducer, on } from '@ngrx/store';
 import { AppUiState, AppState, AppQuizState } from './app.state.models';
 
@@ -12,7 +12,8 @@ const initialAppQuizState:AppQuizState = {
 }
 
 export const AppUiStateReducer = createReducer(
-  initialAppUiState
+  initialAppUiState,
+  on(setIsLoading, (state, {isLoading}) => ({...state, isLoading})),
 )
 
 export const AppQuizStateReducer = createReducer(
@@ -20,7 +21,7 @@ export const AppQuizStateReducer = createReducer(
   on(hpRetrieveQuestionsSuccess, (state, {questions}) => {
     return {
       ...state,
-      questions
+      questions: [...questions]
     }
   })
 )
